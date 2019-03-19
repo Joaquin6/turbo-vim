@@ -19,13 +19,11 @@ Vim 7.3 or better
 Tmux
 Tested on MacOS and Linux with Bash, Zsh and Fish shells.
 
-Introduction to Vim: http://blog.interlinked.org/tutorials/vim_tutorial.html
-
 ## Quick Install
 
 This will install the vim configuration only:
 
-    curl https://raw.github.com/krisleech/turbo-vim/master/bootstrap.sh -o - | sh
+    curl https://raw.github.com/Joaquin6/turbo-vim/master/bootstrap.sh -o - | sh
 
 See later for full instructions for installing Tmux and Vim, as well as manual
 installation of the vim configuration.
@@ -261,12 +259,10 @@ https://github.com/krisleech/dotfiles/blob/master/common/tmux.conf
 
 #### MacOS
 
-    brew install vim --override-system-vim --enable-clipboard
-
 Add `/usr/local/bin` before `/usr/bin` in your `$PATH` so you use the version of
 vim installed by Homebrew, not the one that comes with MacOS.
 
-    brew install tmux
+    brew install vim tmux
 
 #### Debian (Ubuntu, CrunchBang)
 
